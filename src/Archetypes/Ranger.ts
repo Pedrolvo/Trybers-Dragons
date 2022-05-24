@@ -15,7 +15,7 @@ class Ranger extends Archetype {
     return this._energyType;
   }
 
-  public static createdArchetypesInstances() {
+  public static createdArchetypeInstances(): number {
     return Ranger._instances;
   }
 }
